@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 outputs/
-data/
 # Python virtual env
 DL/
 venv/
@@ -19,3 +18,8 @@ __pycache__/
 *.pth
 *.h5
 *.ckpt
+# Ignore raw data
+data/raw/
+
+# Allow processed data
+!data/processed/
