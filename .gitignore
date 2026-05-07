@@ -4,7 +4,6 @@ __pycache__/
 .ipynb_checkpoints/
 outputs/
 # Python virtual env
-DL/
 venv/
 Lib/
 site-packages/
@@ -23,3 +22,5 @@ data/raw/
 
 # Allow processed data
 !data/processed/
+CMAPSSData/
+DL/
